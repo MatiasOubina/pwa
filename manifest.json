@@ -1,0 +1,35 @@
+{
+    "short_name": "InstaMock",
+    "name": "Insta Mocka",
+    "version": "1.0.1",
+    "start_url": "/",
+    "background_color": "#f070ea",
+    "theme_color": "#f070ea",
+    "description": "PWA que simula ser aplicación estilo Instagram",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "id": "/",
+    "icons": [
+        {
+            "src": "./img/icono-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "./img/icono-144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "./img/icono-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./img/icono-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
