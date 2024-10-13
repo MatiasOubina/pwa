@@ -38,7 +38,7 @@ function mostrarDatos() {
         datosApi.forEach(foto => {
             const card = `<div class="photo-card">
                             <img src="${foto.url}" title="${foto.title}" />
-                            <p>Fecha: ${new Date(foto.date).toLocaleString()}</p>
+                            <p>Fecha: ${foto.date}</p>
                             <h2>${foto.title}</h2>
                           </div>
             `
