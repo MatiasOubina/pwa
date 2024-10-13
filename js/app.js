@@ -63,7 +63,7 @@ const btnGuardarImg = document.querySelector('button#btnGuardar')
 const inputCamara = document.createElement('input')
 inputCamara.type = 'file'
 inputCamara.id = 'inputFile'
-inputCamara.accept = '.png, .jpg, .webp'
+inputCamara.accept = 'image/*'
 inputCamara.capture = 'environment'
 
 
