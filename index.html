@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Insta Mocka</title>
-    <link rel="shortcut icon" href="img/icono-64.png" type="image/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/css/estilos.css">
-    <link rel="manifest" href="manifest.json">
-</head>
+    <link rel="shortcut icon" href="img/icono-64.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/estilos.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Insta Mocka</h1>
-        <button id="capturaImg">
-            <i class="fas fa-camera"></i>
-        </button>
+      <h1>Insta Mocka</h1>
+      <button id="capturaImg">
+        <i class="fas fa-camera"></i>
+      </button>
     </header>
 
     <main class="photo-grid" id="photoGrid">
-        <div id="cardModelo">
-            <div class="photo-card">
-                <img src="https://placehold.co/600x250" title="Título de la Foto" />
-                <p>Fecha: 12/10/2024, 3:24:52</p>
-                <h2>Título de la foto</h2>
-            </div>
+      <div id="cardModelo">
+        <div class="photo-card">
+          <img src="img/icono-512.png" title="Título de la Foto" />
+          <p>Fecha: 12/10/2024, 3:24:52</p>
+          <h2>Título de la foto</h2>
         </div>
-        <!-- Las imágenes se insertarán aquí dinámicamente -->
+      </div>
+      <!-- Las imágenes se insertarán aquí dinámicamente -->
     </main>
 
     <dialog>
-        <h2>Subiendo Imagen</h2>
-        <div>
-            <img id="imgTomada" src="">
-        </div>
-        <div id="imgTitulo">
-            <label>Título</label>
-            <input type="text" id="tituloImg" />
-            <span id="mensajeError" class="error">La imagen debe tener un título.</span>
-        </div>
-        <div>
-            <button id="btnGuardar" class="button">GUARDAR</button>
-            <button id="btnCancelar" class="button">CANCELAR</button>
-        </div>
+      <h2>Subiendo Imagen</h2>
+      <div>
+        <img id="imgTomada" src="" />
+      </div>
+      <div id="imgTitulo">
+        <label>Título</label>
+        <input type="text" id="tituloImg" />
+        <span id="mensajeError" class="error"
+          >La imagen debe tener un título.</span
+        >
+      </div>
+      <div>
+        <button id="btnGuardar" class="button">GUARDAR</button>
+        <button id="btnCancelar" class="button">CANCELAR</button>
+      </div>
     </dialog>
 
     <footer>
-        <p>© 2024 Insta Mocka</p>
+      <p>© 2024 Insta Mocka</p>
     </footer>
 
     <script defer src="/js/app.js"></script>
-</body>
-
+  </body>
 </html>
